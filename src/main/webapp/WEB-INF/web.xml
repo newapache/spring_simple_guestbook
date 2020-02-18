@@ -27,7 +27,6 @@
 			<param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext
 			</param-value>
 		</init-param>
-		
 		<init-param> <!-- 6) DispatcherServlet실행 시 WebMvcContextConfiguration 참고해라  -->
 			<param-name>contextConfigLocation</param-name>
 			<param-value>kr.or.connect.guestbook.config.WebMvcContextConfiguration
@@ -44,9 +43,6 @@
 		<servlet-name>mvc</servlet-name>  <!-- 2) mvc 서블릿 찾기  -->
 		<url-pattern>/</url-pattern>     <!-- 1) 모든 요청을 다 받겠다  -->
 	</servlet-mapping>
-
-
-
 
 
 	<filter>

@@ -21,7 +21,7 @@ import static kr.or.connect.guestbook.dao.GuestbookDaoSqls.*;
 
 @Repository
 public class GuestbookDao {
-	 private NamedParameterJdbcTemplate jdbc;
+		private NamedParameterJdbcTemplate jdbc;
 	    private SimpleJdbcInsert insertAction;
 	    private RowMapper<Guestbook> rowMapper = BeanPropertyRowMapper.newInstance(Guestbook.class);
 

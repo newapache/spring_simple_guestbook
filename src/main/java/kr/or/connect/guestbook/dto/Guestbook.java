@@ -7,6 +7,7 @@ public class Guestbook {
 	private String name;
 	private String content;
 	private Date regdate;
+	
 	public Long getId() {
 		return id;
 	}
